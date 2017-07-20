@@ -18,3 +18,5 @@ java.lang.Object res15 = null
 
 > numbersAndWords;
 java.util.HashMap res16 = {1=one, 2=two, 3=three}
+
+//use .get(value); -to retrieve Hash Info
