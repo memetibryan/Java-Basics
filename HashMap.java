@@ -70,3 +70,28 @@ java.util.HashMap res16 = {1=one, 2=two, 3=three}
 //   System.out.println(value);
 // }
 ----------------------------------------------------
+
+//example 2
+> import java.util.Map;
+Imported java.util.Map
+
+> import java.util.HashMap;
+Imported java.util.HashMap
+
+> Map<String, String> numbers = new HashMap();
+java.util.Map numbers = {}
+
+> numbers.put("michael", "503-555-1212");
+java.lang.Object res1 = null
+
+> numbers.put("jessica", "415-999-0000");
+java.lang.Object res2 = null
+
+> numbers.put("chris", "202-111-5599");
+java.lang.Object res3 = null
+
+> numbers.get("michael");
+java.lang.String res4 = "503-555-1212"
+
+> numbers.get("chris");
+java.lang.String res5 = "202-111-5599"
